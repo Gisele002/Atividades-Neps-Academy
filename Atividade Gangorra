@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    // Lendo a entrada do exercício
+	int P1, C1, P2, C2;
+	scanf("%d %d %d %d",&P1, &C1, &P2, &C2);
+
+    // Seu código vai aqui
+
+  int ladoEsquerdo = P1 * C1;
+    int ladoDireito = P2 * C2;
+
+   if (ladoEsquerdo == ladoDireito) {
+       printf("0\n");
+   }else if (ladoEsquerdo > ladoDireito) {
+       printf("-1\n"); 
+       }else{
+       printf("1\n");
+       }
+    
+    return 0;
+}
