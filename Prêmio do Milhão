@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){ 
+    int N;
+    scanf("%d", &N);
+
+    int soma = 0;
+    int dias = 0;
+    int acessos;
+    
+    // Seu código vai aqui
+    for (int i = 0; i < N; i++) {
+    scanf("%d", &acessos); 
+
+    soma += acessos;
+        dias++; 
+
+        if (soma >= 1000000) {
+             break;
+        }
+            
+     }
+
+    printf("%d\n", dias);
+    
+    return 0;
+}
