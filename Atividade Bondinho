@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    // Lendo a entrada do exercício
+	int A, M;
+	scanf("%d",&A);
+	scanf("%d",&M);
+
+    // Seu código vai aqui
+if (A + M <= 50){
+    printf("S\n");
+}else {
+   printf("N\n"); 
+}
+    return 0;
+}
