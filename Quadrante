@@ -14,7 +14,7 @@ if (X === 0 || Y === 0) {
 } else if (X < 0 && Y > 0) {
     console.log("Q2");
 } else if (X < 0 && Y < 0) {
-    console.log("Q3");  // ← Corrigido!
+    console.log("Q3");  
 } else if (X > 0 && Y < 0) {
-    console.log("Q4");  // ← Corrigido!
+    console.log("Q4"); 
 }
